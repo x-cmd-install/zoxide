@@ -4,7 +4,7 @@
 
 A smarter cd command. Supports all major shells.
 
-![zoxide](https://repo.x-cmd.io/zoxide.svg)
+![zoxide](https://repo.x-cmd.io/zoxide.svg?lang=zh)
 
 ## 安装
 
@@ -23,11 +23,32 @@ x install zoxide
 - **最新版本**: `v0.10.0` (2026-07-04)
 - **最近提交**: 2026-09-08
 - **Release 含资产**: 17 个
-- **发布时间**: 2026-07-04T12:41:16Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [zoxide-0.10.0-aarch64-apple-darwin.tar.gz](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-aarch64-apple-darwin.tar.gz) | 471.4 KiB | `native/darwin/arm64` |
+| [zoxide-0.10.0-aarch64-linux-android.tar.gz](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-aarch64-linux-android.tar.gz) | 488.6 KiB | `native/linux/arm64` |
+| [zoxide-0.10.0-aarch64-pc-windows-msvc.zip](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-aarch64-pc-windows-msvc.zip) | 497.0 KiB | `native/win/arm64` |
+| [zoxide-0.10.0-aarch64-unknown-linux-musl.tar.gz](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-aarch64-unknown-linux-musl.tar.gz) | 538.2 KiB | `native/linux/arm64/musl` |
+| [zoxide-0.10.0-arm-unknown-linux-musleabihf.tar.gz](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-arm-unknown-linux-musleabihf.tar.gz) | 551.1 KiB | `native/linux/arm/musl` |
+| [zoxide-0.10.0-armv7-linux-androideabi.tar.gz](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-armv7-linux-androideabi.tar.gz) | 453.3 KiB | `native/linux/arm` |
+| [zoxide-0.10.0-armv7-unknown-linux-musleabihf.tar.gz](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-armv7-unknown-linux-musleabihf.tar.gz) | 539.4 KiB | `native/linux/arm/musl` |
+| [zoxide-0.10.0-i686-unknown-linux-musl.tar.gz](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-i686-unknown-linux-musl.tar.gz) | 582.5 KiB | `native/linux/x86/musl` |
+| [zoxide-0.10.0-riscv64gc-unknown-linux-musl.tar.gz](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-riscv64gc-unknown-linux-musl.tar.gz) | 507.6 KiB | `native/linux/riscv64/musl` |
+| [zoxide-0.10.0-x86_64-apple-darwin.tar.gz](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-x86_64-apple-darwin.tar.gz) | 505.3 KiB | `native/darwin/x64` |
+| [zoxide-0.10.0-x86_64-pc-windows-msvc.zip](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-x86_64-pc-windows-msvc.zip) | 532.9 KiB | `native/win/x64` |
+| [zoxide-0.10.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-x86_64-unknown-linux-musl.tar.gz) | 577.5 KiB | `native/linux/x64/musl` |
+| [zoxide_0.10.0-1_amd64.deb](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide_0.10.0-1_amd64.deb) | 470.6 KiB | `runtime/deb/amd64` |
+| [zoxide_0.10.0-1_arm64.deb](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide_0.10.0-1_arm64.deb) | 410.8 KiB | `runtime/deb/arm64` |
+| [zoxide_0.10.0-1_armhf.deb](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide_0.10.0-1_armhf.deb) | 413.9 KiB | `runtime/deb/armhf` |
+| [zoxide_0.10.0-1_i386.deb](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide_0.10.0-1_i386.deb) | 484.2 KiB | `runtime/deb/i386` |
+| [zoxide_0.10.0-1_riscv64.deb](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide_0.10.0-1_riscv64.deb) | 416.4 KiB | `runtime/deb/riscv64` |
 
 ## 流行度
 
-- **Star**: 39,329 · **Fork**: 894 · **开放 issue**: 752 · **贡献者**: 106
+- **Star**: 39,356 · **Fork**: 896 · **开放 issue**: 752 · **贡献者**: 106
 
 ## 累计统计
 
@@ -72,4 +93,4 @@ zoxide 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:44:55Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:46:14Z._
