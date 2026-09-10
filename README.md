@@ -12,6 +12,28 @@ A smarter cd command. Supports all major shells.
 x install zoxide
 ```
 
+## Code insight
+
+Total: **3,868** lines of code across **29** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Rust | 2,107 | 91 | 372 | 25 |
+| Sh | 414 | 24 | 28 | 1 |
+| TypeScript | 392 | 0 | 1 | 1 |
+| Bash | 345 | 0 | 3 | 1 |
+| PowerShell | 179 | 0 | 5 | 1 |
+
+## OpenSSF Scorecard
+
+Overall score: **3.9 / 10**
+
+Lowest-scoring checks:
+
+- **Code-Review** (1/10) — Found 3/24 approved changesets -- score normalized to 1
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+
 ## Source
 
 - **Upstream**: <https://github.com/ajeetdsouza/zoxide>
@@ -23,6 +45,25 @@ x install zoxide
 - **Latest**: `v0.10.0` (2026-07-04)
 - **Last commit**: 2026-09-08
 - **Assets in release**: 17
+
+## Popularity
+
+- **Stars**: 39,363 · **Forks**: 897 · **Open issues**: 752 · **Contributors**: 106
+
+## Totals (cumulative)
+
+- **Releases**: 38 · **Merged PRs**: 268 · **Open PRs**: 45 · **Closed issues**: 653 · **Open issues**: 99 · **Commits**: 634
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 6 | 9 | 2 | 2 | 8 |
+| last60d | 2026-07-12 | 0 | 9 | 17 | 4 | 4 | 12 |
+| 90d | 2026-06-12 | 1 | 12 | 20 | 10 | 4 | 33 |
+| last180d | 2026-03-14 | 1 | 20 | 24 | 24 | 9 | 42 |
+| 360d | 2025-09-15 | 2 | 37 | 33 | 44 | 22 | 72 |
+| last720d | 2024-09-20 | 4 | 69 | 41 | 156 | 43 | 129 |
 
 ## Release assets
 
@@ -46,43 +87,24 @@ x install zoxide
 | [zoxide_0.10.0-1_i386.deb](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide_0.10.0-1_i386.deb) | 484.2 KiB | `runtime/deb/i386` |
 | [zoxide_0.10.0-1_riscv64.deb](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide_0.10.0-1_riscv64.deb) | 416.4 KiB | `runtime/deb/riscv64` |
 
-## Popularity
+## Distribution status
 
-- **Stars**: 39,356 · **Forks**: 896 · **Open issues**: 752 · **Contributors**: 106
+Reported by **164** distros on [repology.org](https://repology.org/project/zoxide). **43** are ✅ on the latest upstream release, **99** are ⚠️ on an older version.
 
-## Totals (cumulative)
-
-- **Releases**: 38 · **Merged PRs**: 268 · **Open PRs**: 45 · **Closed issues**: 653 · **Open issues**: 99 · **Commits**: 634
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 6 | 9 | 2 | 2 | 8 |
-| 90d | 2026-06-12 | 1 | 12 | 20 | 10 | 4 | 33 |
-| 360d | 2025-09-15 | 2 | 37 | 33 | 44 | 22 | 72 |
-
-## Code size
-
-Total: **3,868** lines of code across **29** files in the top 5 languages.
-
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Rust | 2,107 | 91 | 372 | 25 |
-| Sh | 414 | 24 | 28 | 1 |
-| TypeScript | 392 | 0 | 1 | 1 |
-| Bash | 345 | 0 | 3 | 1 |
-| PowerShell | 179 | 0 | 5 | 1 |
-
-## OpenSSF Scorecard
-
-Overall score: **3.9 / 10**
-
-Lowest-scoring checks:
-
-- **Code-Review** (1/10) — Found 3/24 approved changesets -- score normalized to 1
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.10.0` | ✅ latest |
+| Debian 14 | `0.9.8` | ⚠️ outdated |
+| Debian 13 | `0.9.7` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.9.8` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.9.3` | ⚠️ outdated |
+| Arch | `0.10.0` | ✅ latest |
+| Homebrew | `0.10.0` | ✅ latest |
+| Fedora rawhide | `0.9.8` | ⚠️ outdated |
+| Nix unstable | `0.10.0` | ✅ latest |
+| Void | `0.10.0` | ✅ latest |
+| Alpine edge | `0.9.9` | ⚠️ outdated |
+| openSUSE Tumbleweed | `0.10.0` | ✅ latest |
 
 ## Improve this data
 
@@ -93,4 +115,4 @@ Install metadata for zoxide lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T16:46:13Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T21:37:50Z._
