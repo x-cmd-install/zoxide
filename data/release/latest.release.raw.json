@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 482696,
       "digest": "sha256:b55ae6f2f5f23d0a6ccb3bd4eeb2af9c7e0a6556e5255c82100e40305129bbb0",
-      "download_count": 11942,
+      "download_count": 12012,
       "created_at": "2026-07-04T12:34:47Z",
       "updated_at": "2026-07-04T12:34:48Z",
       "browser_download_url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-aarch64-apple-darwin.tar.gz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 508951,
       "digest": "sha256:b0e6eb62b11ebf168d5c65c5d23c635e81848cc4a88ae6b9caee64cf1e35d12b",
-      "download_count": 1816,
+      "download_count": 1821,
       "created_at": "2026-07-04T12:35:39Z",
       "updated_at": "2026-07-04T12:35:39Z",
       "browser_download_url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-aarch64-pc-windows-msvc.zip"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 551084,
       "digest": "sha256:f1f16c5d6298d63dee467eedea1cdcd8490e43e493bea43acd416dc9033ef641",
-      "download_count": 42216,
+      "download_count": 42299,
       "created_at": "2026-07-04T12:35:10Z",
       "updated_at": "2026-07-04T12:35:10Z",
       "browser_download_url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-aarch64-unknown-linux-musl.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 564372,
       "digest": "sha256:040e036e0a96c8e8c53ea893fa2633545617d30c26c66def46487397f0834568",
-      "download_count": 238,
+      "download_count": 240,
       "created_at": "2026-07-04T12:35:14Z",
       "updated_at": "2026-07-04T12:35:14Z",
       "browser_download_url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-arm-unknown-linux-musleabihf.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 552375,
       "digest": "sha256:0b3035b2f5ee25ea8681948b6bfd8308bdf596d2b720b26e32e7d35cedfa08f6",
-      "download_count": 353,
+      "download_count": 354,
       "created_at": "2026-07-04T12:34:57Z",
       "updated_at": "2026-07-04T12:34:57Z",
       "browser_download_url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-armv7-unknown-linux-musleabihf.tar.gz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 517384,
       "digest": "sha256:18ab7ae2633ad6e2ab79a4e665cbba1e95b7c872d44523326efb793202451dad",
-      "download_count": 1404,
+      "download_count": 1408,
       "created_at": "2026-07-04T12:34:46Z",
       "updated_at": "2026-07-04T12:34:47Z",
       "browser_download_url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-x86_64-apple-darwin.tar.gz"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 545663,
       "digest": "sha256:f465ae548f8754c8e7edbc60b45fbf58c92bfe123db83d790252d6810fa5daf1",
-      "download_count": 62642,
+      "download_count": 62779,
       "created_at": "2026-07-04T12:35:43Z",
       "updated_at": "2026-07-04T12:35:43Z",
       "browser_download_url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-x86_64-pc-windows-msvc.zip"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 591384,
       "digest": "sha256:2d93385b99f3e82cf2701609a1bffcad863fbeb75aa3fe7eb6be4d29be68b1ae",
-      "download_count": 111333,
+      "download_count": 112012,
       "created_at": "2026-07-04T12:34:58Z",
       "updated_at": "2026-07-04T12:34:58Z",
       "browser_download_url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide-0.10.0-x86_64-unknown-linux-musl.tar.gz"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 481904,
       "digest": "sha256:975880c327a8bf4e31e8596313243a4ae342f16afa9bb7d78a6e641bd8cc9dba",
-      "download_count": 2154,
+      "download_count": 2162,
       "created_at": "2026-07-04T12:34:58Z",
       "updated_at": "2026-07-04T12:34:58Z",
       "browser_download_url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide_0.10.0-1_amd64.deb"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 420708,
       "digest": "sha256:f4799bcf1a4f43c0197b75fd4876fcef79d502280e236e327cb154a6fedf1e40",
-      "download_count": 401,
+      "download_count": 406,
       "created_at": "2026-07-04T12:35:10Z",
       "updated_at": "2026-07-04T12:35:10Z",
       "browser_download_url": "https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide_0.10.0-1_arm64.deb"
