@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 39,401 · **Forks**: 898 · **Open issues**: 752 · **Contributors**: 106
+- **Stars**: 39,453 · **Forks**: 898 · **Open issues**: 752 · **Contributors**: 106
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 268 · **Open PRs**: 46 · **Closed issues**: 653 · **Open issues**: 99 · **Commits**: 634
+- **Releases**: 38 · **Merged PRs**: 268 · **Open PRs**: 47 · **Closed issues**: 653 · **Open issues**: 99 · **Commits**: 634
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 0 | 6 | 10 | 2 | 2 | 8 |
-| last60d | 2026-07-13 | 0 | 9 | 18 | 4 | 4 | 12 |
-| 90d | 2026-06-13 | 1 | 12 | 21 | 10 | 4 | 33 |
-| last180d | 2026-03-15 | 1 | 20 | 25 | 24 | 9 | 42 |
-| 360d | 2025-09-16 | 2 | 37 | 34 | 44 | 20 | 72 |
-| last720d | 2024-09-21 | 4 | 69 | 42 | 156 | 43 | 126 |
+| 30d | 2026-08-15 | 0 | 6 | 11 | 2 | 2 | 5 |
+| last60d | 2026-07-16 | 0 | 9 | 17 | 3 | 4 | 11 |
+| 90d | 2026-06-16 | 1 | 12 | 21 | 10 | 4 | 33 |
+| last180d | 2026-03-18 | 1 | 19 | 26 | 24 | 9 | 39 |
+| 360d | 2025-09-19 | 2 | 37 | 35 | 44 | 20 | 70 |
+| last720d | 2024-09-24 | 4 | 69 | 43 | 155 | 43 | 126 |
 
 ## Release assets
 
@@ -87,25 +87,6 @@ Lowest-scoring checks:
 | [zoxide_0.10.0-1_i386.deb](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide_0.10.0-1_i386.deb) | 484.2 KiB | `runtime/deb/i386` |
 | [zoxide_0.10.0-1_riscv64.deb](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide_0.10.0-1_riscv64.deb) | 416.4 KiB | `runtime/deb/riscv64` |
 
-## Distribution status
-
-Reported by **164** distros on [repology.org](https://repology.org/project/zoxide). **43** are ✅ on the latest upstream release, **99** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.10.0` | ✅ latest |
-| Debian 14 | `0.9.8` | ⚠️ outdated |
-| Debian 13 | `0.9.7` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.9.8` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `0.9.3` | ⚠️ outdated |
-| Arch | `0.10.0` | ✅ latest |
-| Homebrew | `0.10.0` | ✅ latest |
-| Fedora rawhide | `0.9.8` | ⚠️ outdated |
-| Nix unstable | `0.10.0` | ✅ latest |
-| Void | `0.10.0` | ✅ latest |
-| Alpine edge | `0.9.9` | ⚠️ outdated |
-| openSUSE Tumbleweed | `0.10.0` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for zoxide lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `zoxide` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -115,4 +96,4 @@ Install metadata for zoxide lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T20:27:43Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T04:59:12Z._
