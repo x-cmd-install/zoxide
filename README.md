@@ -30,7 +30,7 @@ Overall score: **3.9 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 3/24 approved changesets -- score normalized to 1
+- **Code-Review** (1/10) — Found 3/22 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.10.0` (2026-07-04)
-- **Last commit**: 2026-09-08
+- **Last commit**: 2026-09-14
 - **Assets in release**: 17
 
 ## Popularity
 
-- **Stars**: 39,453 · **Forks**: 898 · **Open issues**: 752 · **Contributors**: 106
+- **Stars**: 39,473 · **Forks**: 897 · **Open issues**: 752 · **Contributors**: 106
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 268 · **Open PRs**: 47 · **Closed issues**: 653 · **Open issues**: 99 · **Commits**: 634
+- **Releases**: 38 · **Merged PRs**: 269 · **Open PRs**: 47 · **Closed issues**: 653 · **Open issues**: 99 · **Commits**: 635
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-15 | 0 | 6 | 11 | 2 | 2 | 5 |
-| last60d | 2026-07-16 | 0 | 9 | 17 | 3 | 4 | 11 |
-| 90d | 2026-06-16 | 1 | 12 | 21 | 10 | 4 | 33 |
-| last180d | 2026-03-18 | 1 | 19 | 26 | 24 | 9 | 39 |
-| 360d | 2025-09-19 | 2 | 37 | 35 | 44 | 20 | 70 |
-| last720d | 2024-09-24 | 4 | 69 | 43 | 155 | 43 | 126 |
+| 30d | 2026-08-16 | 0 | 7 | 11 | 1 | 2 | 6 |
+| last60d | 2026-07-17 | 0 | 10 | 16 | 3 | 4 | 12 |
+| 90d | 2026-06-17 | 1 | 13 | 21 | 10 | 4 | 34 |
+| last180d | 2026-03-19 | 1 | 20 | 26 | 23 | 9 | 40 |
+| 360d | 2025-09-20 | 2 | 38 | 35 | 44 | 20 | 71 |
+| last720d | 2024-09-25 | 4 | 70 | 43 | 155 | 43 | 127 |
 
 ## Release assets
 
@@ -96,4 +96,4 @@ Install metadata for zoxide lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260914.yml` · 2026-09-14T04:59:12Z._
+_Snapshot: `data/card/260915.yml` · 2026-09-15T05:03:52Z._
