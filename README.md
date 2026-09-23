@@ -4,7 +4,7 @@
 
 A smarter cd command. Supports all major shells.
 
-[![x-cmd/install — zoxide Code Quality Monitoring Repo Card](https://repo.x-cmd.io/zoxide.svg)](https://x-cmd.com/install/zoxide)
+[![x-cmd/install — zoxide Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/zoxide.svg)](https://x-cmd.com/install/zoxide)
 
 ## Install
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 39,646 · **Forks**: 907 · **Open issues**: 752 · **Contributors**: 106
+- **Stars**: 39,657 · **Forks**: 908 · **Open issues**: 752 · **Contributors**: 106
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 270 · **Open PRs**: 47 · **Closed issues**: 653 · **Open issues**: 99 · **Commits**: 636
+- **Releases**: 38 · **Merged PRs**: 270 · **Open PRs**: 48 · **Closed issues**: 653 · **Open issues**: 99 · **Commits**: 636
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 6 | 8 | 1 | 2 | 5 |
-| last60d | 2026-07-24 | 0 | 11 | 15 | 2 | 3 | 13 |
-| 90d | 2026-06-24 | 1 | 13 | 21 | 10 | 4 | 34 |
-| last180d | 2026-03-26 | 1 | 19 | 26 | 20 | 7 | 40 |
-| 360d | 2025-09-27 | 2 | 38 | 35 | 44 | 20 | 71 |
-| last720d | 2024-10-02 | 4 | 71 | 43 | 150 | 43 | 128 |
+| 30d | 2026-08-24 | 0 | 5 | 9 | 1 | 2 | 5 |
+| last60d | 2026-07-25 | 0 | 11 | 16 | 2 | 3 | 13 |
+| 90d | 2026-06-25 | 1 | 13 | 22 | 10 | 4 | 34 |
+| last180d | 2026-03-27 | 1 | 19 | 27 | 19 | 7 | 40 |
+| 360d | 2025-09-28 | 2 | 38 | 36 | 44 | 20 | 71 |
+| last720d | 2024-10-03 | 4 | 71 | 44 | 150 | 43 | 128 |
 
 ## Release assets
 
@@ -96,4 +96,4 @@ Install metadata for zoxide lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T05:03:54Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T04:57:01Z._

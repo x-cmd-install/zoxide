@@ -4,7 +4,7 @@
 
 A smarter cd command. Supports all major shells.
 
-[![x-cmd/install — zoxide Code Quality Monitoring Repo Card](https://repo.x-cmd.io/zoxide.svg?lang=zh)](https://x-cmd.com/install/zoxide)
+[![x-cmd/install — zoxide Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/zoxide.svg?lang=zh)](https://x-cmd.com/install/zoxide)
 
 ## 安装
 
@@ -48,22 +48,22 @@ x install zoxide
 
 ## 流行度
 
-- **Star**: 39,646 · **Fork**: 907 · **开放 issue**: 752 · **贡献者**: 106
+- **Star**: 39,657 · **Fork**: 908 · **开放 issue**: 752 · **贡献者**: 106
 
 ## 累计统计
 
-- **发布数**: 38 · **已合并 PR**: 270 · **开放 PR**: 47 · **已关闭 issue**: 653 · **开放 issue**: 99 · **提交数**: 636
+- **发布数**: 38 · **已合并 PR**: 270 · **开放 PR**: 48 · **已关闭 issue**: 653 · **开放 issue**: 99 · **提交数**: 636
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 6 | 8 | 1 | 2 | 5 |
-| last60d | 2026-07-24 | 0 | 11 | 15 | 2 | 3 | 13 |
-| 90d | 2026-06-24 | 1 | 13 | 21 | 10 | 4 | 34 |
-| last180d | 2026-03-26 | 1 | 19 | 26 | 20 | 7 | 40 |
-| 360d | 2025-09-27 | 2 | 38 | 35 | 44 | 20 | 71 |
-| last720d | 2024-10-02 | 4 | 71 | 43 | 150 | 43 | 128 |
+| 30d | 2026-08-24 | 0 | 5 | 9 | 1 | 2 | 5 |
+| last60d | 2026-07-25 | 0 | 11 | 16 | 2 | 3 | 13 |
+| 90d | 2026-06-25 | 1 | 13 | 22 | 10 | 4 | 34 |
+| last180d | 2026-03-27 | 1 | 19 | 27 | 19 | 7 | 40 |
+| 360d | 2025-09-28 | 2 | 38 | 36 | 44 | 20 | 71 |
+| last720d | 2024-10-03 | 4 | 71 | 44 | 150 | 43 | 128 |
 
 ## Release 资产
 
@@ -96,4 +96,4 @@ zoxide 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T05:03:55Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T04:57:02Z._
