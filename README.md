@@ -30,7 +30,7 @@ Overall score: **3.9 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 3/21 approved changesets -- score normalized to 1
+- **Code-Review** (1/10) — Found 3/20 approved changesets -- score normalized to 1
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.10.0` (2026-07-04)
-- **Last commit**: 2026-09-21
+- **Last commit**: 2026-09-28
 - **Assets in release**: 17
 
 ## Popularity
 
-- **Stars**: 39,722 · **Forks**: 910 · **Open issues**: 752 · **Contributors**: 106
+- **Stars**: 39,732 · **Forks**: 910 · **Open issues**: 753 · **Contributors**: 106
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 270 · **Open PRs**: 50 · **Closed issues**: 653 · **Open issues**: 99 · **Commits**: 636
+- **Releases**: 38 · **Merged PRs**: 271 · **Open PRs**: 50 · **Closed issues**: 653 · **Open issues**: 100 · **Commits**: 638
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 0 | 4 | 7 | 1 | 2 | 3 |
-| last60d | 2026-07-30 | 0 | 11 | 17 | 2 | 2 | 13 |
-| 90d | 2026-06-30 | 1 | 13 | 24 | 6 | 4 | 16 |
-| last180d | 2026-04-01 | 1 | 19 | 29 | 18 | 7 | 40 |
-| 360d | 2025-10-03 | 2 | 38 | 37 | 44 | 20 | 70 |
-| last720d | 2024-10-08 | 4 | 69 | 46 | 144 | 42 | 127 |
+| 30d | 2026-08-30 | 0 | 5 | 7 | 0 | 3 | 5 |
+| last60d | 2026-07-31 | 0 | 12 | 17 | 2 | 3 | 15 |
+| 90d | 2026-07-01 | 1 | 14 | 24 | 6 | 5 | 18 |
+| last180d | 2026-04-02 | 1 | 20 | 29 | 18 | 8 | 42 |
+| 360d | 2025-10-04 | 2 | 39 | 37 | 44 | 21 | 72 |
+| last720d | 2024-10-09 | 4 | 70 | 46 | 143 | 43 | 129 |
 
 ## Release assets
 
@@ -96,4 +96,4 @@ Install metadata for zoxide lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T05:25:27Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T05:50:16Z._
