@@ -26,11 +26,11 @@ Total: **3,934** lines of code across **29** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **3.9 / 10**
+Overall score: **4 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 3/20 approved changesets -- score normalized to 1
+- **Code-Review** (2/10) — Found 4/19 approved changesets -- score normalized to 2
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 39,872 · **Forks**: 916 · **Open issues**: 753 · **Contributors**: 107
+- **Stars**: 39,895 · **Forks**: 916 · **Open issues**: 753 · **Contributors**: 107
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 0 | 7 | 8 | 2 | 1 | 8 |
-| last60d | 2026-08-06 | 0 | 15 | 18 | 4 | 3 | 16 |
-| 90d | 2026-07-07 | 0 | 16 | 22 | 8 | 4 | 21 |
-| last180d | 2026-04-08 | 1 | 24 | 25 | 21 | 6 | 46 |
-| 360d | 2025-10-10 | 2 | 43 | 35 | 46 | 20 | 76 |
-| last720d | 2024-10-15 | 4 | 73 | 43 | 143 | 41 | 132 |
+| 30d | 2026-09-06 | 0 | 7 | 8 | 2 | 1 | 8 |
+| last60d | 2026-08-07 | 0 | 15 | 18 | 4 | 3 | 16 |
+| 90d | 2026-07-08 | 0 | 16 | 22 | 8 | 4 | 21 |
+| last180d | 2026-04-09 | 1 | 24 | 25 | 21 | 6 | 46 |
+| 360d | 2025-10-11 | 2 | 43 | 35 | 46 | 20 | 76 |
+| last720d | 2024-10-16 | 4 | 73 | 43 | 143 | 41 | 129 |
 
 ## Release assets
 
@@ -96,4 +96,4 @@ Install metadata for zoxide lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T05:41:57Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T06:23:04Z._
