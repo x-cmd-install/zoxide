@@ -18,7 +18,7 @@ Total: **3,934** lines of code across **29** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 2,173 | 88 | 377 | 25 |
+| Rust | 2,173 | 89 | 378 | 25 |
 | Sh | 414 | 24 | 28 | 1 |
 | TypeScript | 392 | 0 | 1 | 1 |
 | Bash | 345 | 0 | 3 | 1 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.10.0` (2026-07-04)
-- **Last commit**: 2026-10-18
+- **Last commit**: 2026-10-23
 - **Assets in release**: 17
 
 ## Popularity
 
-- **Stars**: 40,241 · **Forks**: 941 · **Open issues**: 755 · **Contributors**: 108
+- **Stars**: 40,254 · **Forks**: 933 · **Open issues**: 755 · **Contributors**: 113
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 276 · **Open PRs**: 67 · **Closed issues**: 656 · **Open issues**: 99 · **Commits**: 643
+- **Releases**: 38 · **Merged PRs**: 284 · **Open PRs**: 61 · **Closed issues**: 656 · **Open issues**: 99 · **Commits**: 651
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 5 | 25 | 2 | 3 | 7 |
-| last60d | 2026-08-23 | 0 | 11 | 33 | 3 | 5 | 12 |
-| 90d | 2026-07-24 | 0 | 17 | 38 | 5 | 5 | 20 |
-| last180d | 2026-04-25 | 1 | 24 | 43 | 19 | 8 | 47 |
-| 360d | 2025-10-27 | 2 | 43 | 55 | 45 | 20 | 76 |
-| last720d | 2024-11-01 | 4 | 74 | 63 | 137 | 42 | 130 |
+| 30d | 2026-09-23 | 0 | 12 | 20 | 2 | 3 | 15 |
+| last60d | 2026-08-24 | 0 | 18 | 27 | 3 | 5 | 20 |
+| 90d | 2026-07-25 | 0 | 25 | 32 | 5 | 5 | 28 |
+| last180d | 2026-04-26 | 1 | 32 | 37 | 19 | 8 | 55 |
+| 360d | 2025-10-28 | 2 | 51 | 49 | 45 | 20 | 84 |
+| last720d | 2024-11-02 | 4 | 82 | 57 | 136 | 42 | 138 |
 
 ## Release assets
 
@@ -87,6 +87,25 @@ Lowest-scoring checks:
 | [zoxide_0.10.0-1_i386.deb](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide_0.10.0-1_i386.deb) | 484.2 KiB | `runtime/deb/i386` |
 | [zoxide_0.10.0-1_riscv64.deb](https://github.com/ajeetdsouza/zoxide/releases/download/v0.10.0/zoxide_0.10.0-1_riscv64.deb) | 416.4 KiB | `runtime/deb/riscv64` |
 
+## Distribution status
+
+Reported by **163** distros on [repology.org](https://repology.org/project/zoxide). **51** are ✅ on the latest upstream release, **89** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.10.0` | ✅ latest |
+| Debian 14 | `0.10.0` | ✅ latest |
+| Debian 13 | `0.9.7` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.9.8` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `0.9.3` | ⚠️ outdated |
+| Arch | `0.10.0` | ✅ latest |
+| Homebrew | `0.10.0` | ✅ latest |
+| Fedora rawhide | `0.9.8` | ⚠️ outdated |
+| Nix unstable | `0.10.0` | ✅ latest |
+| Void | `0.10.0` | ✅ latest |
+| Alpine edge | `0.9.9` | ⚠️ outdated |
+| openSUSE Tumbleweed | `0.10.0` | ✅ latest |
+
 ## Improve this data
 
 Install metadata for zoxide lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `zoxide` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -96,4 +115,4 @@ Install metadata for zoxide lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T04:49:05Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T04:57:34Z._
