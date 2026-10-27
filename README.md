@@ -26,13 +26,13 @@ Total: **3,941** lines of code across **29** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4 / 10**
+Overall score: **4.4 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 5/19 approved changesets -- score normalized to 2
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 40,289 · **Forks**: 934 · **Open issues**: 758 · **Contributors**: 116
+- **Stars**: 40,311 · **Forks**: 934 · **Open issues**: 758 · **Contributors**: 116
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 17 | 14 | 4 | 4 | 18 |
-| last60d | 2026-08-27 | 0 | 22 | 22 | 5 | 6 | 23 |
-| 90d | 2026-07-28 | 0 | 30 | 27 | 6 | 6 | 33 |
-| last180d | 2026-04-29 | 1 | 37 | 32 | 21 | 9 | 60 |
-| 360d | 2025-10-31 | 2 | 56 | 44 | 46 | 21 | 86 |
-| last720d | 2024-11-05 | 4 | 87 | 52 | 138 | 43 | 143 |
+| 30d | 2026-09-27 | 0 | 17 | 13 | 4 | 4 | 18 |
+| last60d | 2026-08-28 | 0 | 21 | 20 | 5 | 6 | 23 |
+| 90d | 2026-07-29 | 0 | 30 | 27 | 6 | 6 | 33 |
+| last180d | 2026-04-30 | 1 | 37 | 32 | 21 | 9 | 60 |
+| 360d | 2025-11-01 | 2 | 56 | 44 | 46 | 21 | 86 |
+| last720d | 2024-11-06 | 4 | 87 | 52 | 137 | 43 | 143 |
 
 ## Release assets
 
@@ -115,4 +115,4 @@ Install metadata for zoxide lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T04:50:59Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T05:03:36Z._
