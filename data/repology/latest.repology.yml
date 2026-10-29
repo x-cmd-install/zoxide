@@ -1,17 +1,40 @@
-- repo: deepin_23
-  subrepo: main
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: rust-zoxide
   binnames:
     - zoxide
   visiblename: rust-zoxide
-  version: 0.9.4
-  origversion: 0.9.4-2
+  version: 0.9.7
+  origversion: 0.9.7-1
   status: outdated
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
     - sylvestre@debian.org
   categories:
     - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: rust-zoxide
+  binnames:
+    - zoxide
+  visiblename: rust-zoxide
+  version: 0.9.7
+  origversion: 0.9.7-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - sylvestre@debian.org
+  categories:
+    - misc
+- repo: wakemeops
+  subrepo: terminal
+  binname: zoxide
+  visiblename: zoxide
+  version: 0.9.6
+  origversion: 0.9.6-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: stalix_dev
   srcname: bin/zoxide
   binname: bin/zoxide
@@ -23,6 +46,28 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: chimera
+  subrepo: user
+  srcname: zoxide
+  binname: zoxide-bashcomp
+  visiblename: zoxide-bashcomp
+  version: 0.10.0
+  origversion: 0.10.0-r0
+  status: newest
+  summary: Fuzzy cd command for interactive shells (bash completions)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: zoxide
+  binname: zoxide-doc
+  visiblename: zoxide-doc
+  version: 0.10.0
+  origversion: 0.10.0-r0
+  status: newest
+  summary: Fuzzy cd command for interactive shells (documentation)
+  licenses:
+    - MIT
 - repo: aerynos
   srcname: zoxide
   visiblename: zoxide
@@ -43,6 +88,17 @@
   summary: Fish completions for zoxide
   maintainers:
     - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: zoxide
+  binname: zoxide-man
+  visiblename: zoxide-man
+  version: 0.10.0
+  origversion: 0.10.0-r0
+  status: newest
+  summary: Fuzzy cd command for interactive shells (manual pages)
   licenses:
     - MIT
 - repo: alpine_3_17
@@ -191,12 +247,12 @@
 - repo: chimera
   subrepo: user
   srcname: zoxide
-  binname: zoxide-man
-  visiblename: zoxide-man
+  binname: zoxide-nucomp
+  visiblename: zoxide-nucomp
   version: 0.10.0
   origversion: 0.10.0-r0
   status: newest
-  summary: Fuzzy cd command for interactive shells (manual pages)
+  summary: Fuzzy cd command for interactive shells (nu completions)
   licenses:
     - MIT
 - repo: alpine_3_19
@@ -327,17 +383,6 @@
   summary: Bash completions for zoxide
   maintainers:
     - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: parabola
-  subrepo: extra
-  srcname: zoxide
-  binname: zoxide
-  visiblename: zoxide
-  version: 0.10.0
-  origversion: 0.10.0-1
-  status: newest
-  summary: A smarter cd command for your terminal
   licenses:
     - MIT
 - repo: alpine_3_21
@@ -453,19 +498,6 @@
   origversion: 0.9.8-r0
   status: outdated
   summary: Faster way to navigate your filesystem
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: zoxide
-  binname: zoxide-bash-completion
-  visiblename: zoxide-bash-completion
-  version: 0.9.8
-  origversion: 0.9.8-r0
-  status: outdated
-  summary: Bash completions for zoxide
   maintainers:
     - jakub@jirutka.cz
   licenses:
@@ -487,6 +519,19 @@
 - repo: alpine_3_23
   subrepo: community
   srcname: zoxide
+  binname: zoxide-bash-completion
+  visiblename: zoxide-bash-completion
+  version: 0.9.8
+  origversion: 0.9.8-r0
+  status: outdated
+  summary: Bash completions for zoxide
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: zoxide
   binname: zoxide-doc
   visiblename: zoxide-doc
   version: 0.9.8
@@ -614,20 +659,15 @@
     - jakub@jirutka.cz
   licenses:
     - MIT
-- repo: parrot
-  subrepo: parrot/main
-  srcname: rust-zoxide
-  binnames:
-    - zoxide
-  visiblename: rust-zoxide
-  version: 0.9.7
-  origversion: 0.9.7-1
-  status: outdated
+- repo: wakemeops
+  subrepo: terminal
+  binname: zoxide
+  visiblename: zoxide
+  version: 0.9.5
+  origversion: 0.9.5-1~ops2deb
+  status: legacy
   maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - sylvestre@debian.org
-  categories:
-    - misc
+    - ops2deb@upciti.com
 - repo: alpine_edge
   subrepo: community
   srcname: zoxide
@@ -759,45 +799,12 @@
 - repo: chimera
   subrepo: user
   srcname: zoxide
-  binname: zoxide-bashcomp
-  visiblename: zoxide-bashcomp
-  version: 0.10.0
-  origversion: 0.10.0-r0
-  status: newest
-  summary: Fuzzy cd command for interactive shells (bash completions)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: zoxide
-  binname: zoxide-doc
-  visiblename: zoxide-doc
-  version: 0.10.0
-  origversion: 0.10.0-r0
-  status: newest
-  summary: Fuzzy cd command for interactive shells (documentation)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: zoxide
   binname: zoxide-fishcomp
   visiblename: zoxide-fishcomp
   version: 0.10.0
   origversion: 0.10.0-r0
   status: newest
   summary: Fuzzy cd command for interactive shells (fish completions)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: zoxide
-  binname: zoxide-nucomp
-  visiblename: zoxide-nucomp
-  version: 0.10.0
-  origversion: 0.10.0-r0
-  status: newest
-  summary: Fuzzy cd command for interactive shells (nu completions)
   licenses:
     - MIT
 - repo: chimera
@@ -919,6 +926,20 @@
   version: 0.10.0
   origversion: 0.10.0-1
   status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - sylvestre@debian.org
+  categories:
+    - misc
+- repo: deepin_23
+  subrepo: main
+  srcname: rust-zoxide
+  binnames:
+    - zoxide
+  visiblename: rust-zoxide
+  version: 0.9.4
+  origversion: 0.9.4-2
+  status: outdated
   maintainers:
     - pkg-rust-maintainers@alioth-lists.debian.net
     - sylvestre@debian.org
@@ -1130,20 +1151,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: rust-zoxide
-  binnames:
-    - zoxide
-  visiblename: rust-zoxide
-  version: 0.9.7
-  origversion: 0.9.7-1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - sylvestre@debian.org
-  categories:
-    - misc
 - repo: fedora_43
   subrepo: release
   srcname: rust-zoxide
@@ -1260,6 +1267,18 @@
     - MIT MIT MPL-2.0 Unicode-DFS-2016 || ( Apache-2.0 CC0-1.0 MIT-0 )
   categories:
     - app-shells
+- repo: pkgsrc_2026_2
+  srcname: sysutils/zoxide
+  binname: zoxide
+  visiblename: sysutils/zoxide
+  version: 0.9.9
+  origversion: null
+  status: outdated
+  summary: Faster way to navigate your filesystem
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
 - repo: gentoo
   srcname: app-shells/zoxide
   visiblename: app-shells/zoxide
@@ -1359,6 +1378,16 @@
     - MIT MIT MPL-2.0 Unicode-DFS-2016 || ( Apache-2.0 CC0-1.0 MIT-0 )
   categories:
     - app-shells
+- repo: msys2_clangarm64
+  srcname: mingw-w64-zoxide
+  binname: mingw-w64-clang-aarch64-zoxide
+  visiblename: mingw-w64-clang-aarch64-zoxide
+  version: 0.10.0
+  origversion: 0.10.0-1
+  status: newest
+  summary: A smarter cd command (mingw-w64)
+  licenses:
+    - spdx:MIT
 - repo: liguros_stable
   srcname: app-shells/zoxide
   visiblename: app-shells/zoxide
@@ -1415,35 +1444,6 @@
     - MIT MIT MPL-2.0 Unicode-DFS-2016 || ( Apache-2.0 CC0-1.0 MIT-0 )
   categories:
     - app-shells
-- repo: nix_stable_26_05
-  srcname: zoxide
-  visiblename: zoxide
-  version: 0.9.9
-  origversion: null
-  status: outdated
-  summary: Fast cd command that learns your habits
-  maintainers:
-    - me@ysndr.de
-    - cole.e.helbling@outlook.com
-    - sandro.jaeckel@gmail.com
-    - mail@beyermatthias.de
-    - xiaoyin_c@qq.com
-  licenses:
-    - MIT
-- repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: rust-zoxide
-  binnames:
-    - zoxide
-  visiblename: rust-zoxide
-  version: 0.9.3
-  origversion: 0.9.3-1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - sylvestre@debian.org
-  categories:
-    - universe/misc
 - repo: liguros_develop
   srcname: app-shells/zoxide
   visiblename: app-shells/zoxide
@@ -1472,6 +1472,50 @@
     - MIT MIT MPL-2.0 Unicode-3.0 || ( Apache-2.0 Boost-1.0 ) || ( Apache-2.0 CC0-1.0 MIT-0 )
   categories:
     - app-shells
+- repo: pkgsrc_2026_3
+  srcname: sysutils/zoxide
+  binname: zoxide
+  visiblename: sysutils/zoxide
+  version: 0.10.0
+  origversion: null
+  status: newest
+  summary: Faster way to navigate your filesystem
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
+- repo: pkgsrc_current
+  srcname: sysutils/zoxide
+  binname: zoxide
+  visiblename: sysutils/zoxide
+  version: 0.10.0
+  origversion: null
+  status: newest
+  summary: Faster way to navigate your filesystem
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
+- repo: pld
+  srcname: zoxide
+  visiblename: zoxide
+  version: 0.10.0
+  origversion: 0.10.0-1
+  status: newest
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: rust-zoxide
+  binnames:
+    - zoxide
+  visiblename: rust-zoxide
+  version: 0.4.3
+  origversion: 0.4.3-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - sylvestre@debian.org
+  categories:
+    - utils
 - repo: liguros_develop
   srcname: app-shells/zoxide
   visiblename: app-shells/zoxide
@@ -1571,16 +1615,6 @@
   summary: A smarter cd command (mingw-w64)
   licenses:
     - spdx:MIT
-- repo: msys2_clangarm64
-  srcname: mingw-w64-zoxide
-  binname: mingw-w64-clang-aarch64-zoxide
-  visiblename: mingw-w64-clang-aarch64-zoxide
-  version: 0.10.0
-  origversion: 0.10.0-1
-  status: newest
-  summary: A smarter cd command (mingw-w64)
-  licenses:
-    - spdx:MIT
 - repo: msys2_ucrt64
   srcname: mingw-w64-zoxide
   binname: mingw-w64-ucrt-x86_64-zoxide
@@ -1632,6 +1666,21 @@
   licenses:
     - MIT
 - repo: nix_stable_25_11
+  srcname: zoxide
+  visiblename: zoxide
+  version: 0.9.9
+  origversion: null
+  status: outdated
+  summary: Fast cd command that learns your habits
+  maintainers:
+    - me@ysndr.de
+    - cole.e.helbling@outlook.com
+    - sandro.jaeckel@gmail.com
+    - mail@beyermatthias.de
+    - xiaoyin_c@qq.com
+  licenses:
+    - MIT
+- repo: nix_stable_26_05
   srcname: zoxide
   visiblename: zoxide
   version: 0.9.9
@@ -1730,62 +1779,17 @@
   summary: A smarter cd command. Supports all major shells.
   maintainers:
     - lfromanini@yahoo.com
-- repo: pkgsrc_2026_2
-  srcname: sysutils/zoxide
-  binname: zoxide
-  visiblename: sysutils/zoxide
-  version: 0.9.9
-  origversion: null
-  status: outdated
-  summary: Faster way to navigate your filesystem
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
-- repo: pkgsrc_2026_3
-  srcname: sysutils/zoxide
-  binname: zoxide
-  visiblename: sysutils/zoxide
-  version: 0.10.0
-  origversion: null
-  status: newest
-  summary: Faster way to navigate your filesystem
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
-- repo: pkgsrc_current
-  srcname: sysutils/zoxide
-  binname: zoxide
-  visiblename: sysutils/zoxide
-  version: 0.10.0
-  origversion: null
-  status: newest
-  summary: Faster way to navigate your filesystem
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
-- repo: pld
+- repo: parabola
+  subrepo: extra
   srcname: zoxide
+  binname: zoxide
   visiblename: zoxide
   version: 0.10.0
   origversion: 0.10.0-1
   status: newest
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: rust-zoxide
-  binnames:
-    - zoxide
-  visiblename: rust-zoxide
-  version: 0.4.3
-  origversion: 0.4.3-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - sylvestre@debian.org
-  categories:
-    - utils
+  summary: A smarter cd command for your terminal
+  licenses:
+    - MIT
 - repo: pureos_landing
   subrepo: landing/main
   srcname: rust-zoxide
@@ -1963,6 +1967,20 @@
     - sylvestre@debian.org
   categories:
     - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: rust-zoxide
+  binnames:
+    - zoxide
+  visiblename: rust-zoxide
+  version: 0.9.3
+  origversion: 0.9.3-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - sylvestre@debian.org
+  categories:
+    - universe/misc
 - repo: ubuntu_25_04
   subrepo: plucky/universe
   srcname: rust-zoxide
@@ -2065,24 +2083,6 @@
   visiblename: zoxide
   version: 0.9.7
   origversion: 0.9.7-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: zoxide
-  visiblename: zoxide
-  version: 0.9.6
-  origversion: 0.9.6-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: zoxide
-  visiblename: zoxide
-  version: 0.9.5
-  origversion: 0.9.5-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
