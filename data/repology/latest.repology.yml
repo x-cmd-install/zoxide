@@ -1,60 +1,51 @@
-- repo: wakemeops
-  subrepo: terminal
-  binname: zoxide
+- repo: chromebrew
+  srcname: zoxide
   visiblename: zoxide
-  version: 0.9.7
-  origversion: 0.9.7-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: zoxide
-  visiblename: zoxide
-  version: 0.9.6
-  origversion: 0.9.6-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: terminal
-  binname: zoxide
-  visiblename: zoxide
-  version: 0.9.5
-  origversion: 0.9.5-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: liguros_develop
-  srcname: app-shells/zoxide
-  visiblename: app-shells/zoxide
-  version: 0.9.9
+  version: 0.10.0
   origversion: null
-  status: legacy
-  summary: A smarter cd command for your terminal
-  maintainers:
-    - arsen@gentoo.org
-    - leohdz172@proton.me
+  status: newest
+  summary: zoxide is a smarter cd command, inspired by z and autojump.
   licenses:
-    - MIT MIT MPL-2.0 Unicode-3.0 || ( Apache-2.0 Boost-1.0 ) || ( Apache-2.0 CC0-1.0 MIT-0 )
-  categories:
-    - app-shells
-- repo: liguros_develop
-  srcname: app-shells/zoxide
-  visiblename: app-shells/zoxide
+    - MIT
+- repo: crates_io
+  srcname: zoxide
+  visiblename: zoxide
   version: 0.10.0
   origversion: null
   status: newest
   summary: A smarter cd command for your terminal
+- repo: crux_37
+  subrepo: contrib
+  srcname: zoxide
+  visiblename: zoxide
+  version: 0.9.7
+  origversion: null
+  status: outdated
+  summary: A smarter cd command. Supports all major shells.
   maintainers:
-    - arsen@gentoo.org
-    - leohdz172@proton.me
-  licenses:
-    - MIT MIT MPL-2.0 Unicode-3.0 ZLIB || ( Apache-2.0 CC0-1.0 MIT-0 )
-  categories:
-    - app-shells
-- repo: raspbian_stable
-  subrepo: main
+    - tbier@posteo.de
+- repo: crux_38
+  subrepo: contrib
+  srcname: zoxide
+  visiblename: zoxide
+  version: 0.10.0
+  origversion: null
+  status: newest
+  summary: A smarter cd command. Supports all major shells.
+  maintainers:
+    - tbier@posteo.de
+- repo: termux
+  srcname: zoxide
+  binname: zoxide
+  visiblename: zoxide
+  version: 0.10.0
+  origversion: null
+  status: newest
+  summary: A faster way to navigate your filesystem
+  maintainers:
+    - termux@github
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: rust-zoxide
   binnames:
     - zoxide
@@ -67,27 +58,29 @@
     - sylvestre@debian.org
   categories:
     - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: rust-zoxide
-  binnames:
-    - zoxide
-  visiblename: rust-zoxide
-  version: 0.10.0
-  origversion: 0.10.0-1
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - sylvestre@debian.org
-  categories:
-    - misc
-- repo: crates_io
-  srcname: zoxide
+- repo: wakemeops
+  subrepo: terminal
+  binname: zoxide
   visiblename: zoxide
-  version: 0.10.0
-  origversion: null
-  status: newest
+  version: 0.9.9
+  origversion: 0.9.9-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: liguros_stable
+  srcname: app-shells/zoxide
+  visiblename: app-shells/zoxide
+  version: 0.9.6
+  origversion: 0.9.6-r1
+  status: legacy
   summary: A smarter cd command for your terminal
+  maintainers:
+    - arsen@gentoo.org
+    - leohdz172@proton.me
+  licenses:
+    - MIT MIT MPL-2.0 Unicode-DFS-2016 || ( Apache-2.0 CC0-1.0 MIT-0 )
+  categories:
+    - app-shells
 - repo: aerynos
   srcname: zoxide
   visiblename: zoxide
@@ -100,6 +93,32 @@
 - repo: alpine_3_17
   subrepo: community
   srcname: zoxide
+  binname: zoxide-fish-completion
+  visiblename: zoxide-fish-completion
+  version: 0.8.3
+  origversion: 0.8.3-r0
+  status: outdated
+  summary: Fish completions for zoxide
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: zoxide
+  binname: zoxide-doc
+  visiblename: zoxide-doc
+  version: 0.8.3
+  origversion: 0.8.3-r0
+  status: outdated
+  summary: A faster way to navigate your filesystem (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: zoxide
   binname: zoxide
   visiblename: zoxide
   version: 0.8.3
@@ -136,32 +155,6 @@
     - jakub@jirutka.cz
   licenses:
     - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: zoxide
-  binname: zoxide-fish-completion
-  visiblename: zoxide-fish-completion
-  version: 0.8.3
-  origversion: 0.8.3-r0
-  status: outdated
-  summary: Fish completions for zoxide
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: zoxide
-  binname: zoxide-doc
-  visiblename: zoxide-doc
-  version: 0.8.3
-  origversion: 0.8.3-r0
-  status: outdated
-  summary: A faster way to navigate your filesystem (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
 - repo: alpine_3_18
   subrepo: community
   srcname: zoxide
@@ -318,268 +311,281 @@
     - jakub@jirutka.cz
   licenses:
     - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: zoxide
-  binname: zoxide-doc
-  visiblename: zoxide-doc
-  version: 0.9.4
-  origversion: 0.9.4-r0
-  status: outdated
-  summary: Faster way to navigate your filesystem (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: zoxide
-  binname: zoxide-fish-completion
-  visiblename: zoxide-fish-completion
-  version: 0.9.4
-  origversion: 0.9.4-r0
-  status: outdated
-  summary: Fish completions for zoxide
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: zoxide
-  binname: zoxide-zsh-completion
-  visiblename: zoxide-zsh-completion
-  version: 0.9.4
-  origversion: 0.9.4-r0
-  status: outdated
-  summary: Zsh completions for zoxide
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: zoxide
+- repo: chocolatey
   binname: zoxide
   visiblename: zoxide
-  version: 0.9.4
-  origversion: 0.9.4-r0
-  status: outdated
-  summary: Faster way to navigate your filesystem
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: zoxide
-  binname: zoxide-bash-completion
-  visiblename: zoxide-bash-completion
-  version: 0.9.4
-  origversion: 0.9.4-r0
-  status: outdated
-  summary: Bash completions for zoxide
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: zoxide
-  binname: zoxide-doc
-  visiblename: zoxide-doc
-  version: 0.9.4
-  origversion: 0.9.4-r0
-  status: outdated
-  summary: Faster way to navigate your filesystem (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: zoxide
-  binname: zoxide-fish-completion
-  visiblename: zoxide-fish-completion
-  version: 0.9.4
-  origversion: 0.9.4-r0
-  status: outdated
-  summary: Fish completions for zoxide
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: zoxide
-  binname: zoxide-zsh-completion
-  visiblename: zoxide-zsh-completion
-  version: 0.9.4
-  origversion: 0.9.4-r0
-  status: outdated
-  summary: Zsh completions for zoxide
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: liguros_develop
-  srcname: app-shells/zoxide
-  visiblename: app-shells/zoxide
-  version: 0.9.8
+  version: 0.9.2
   origversion: null
-  status: legacy
-  summary: A smarter cd command for your terminal
-  maintainers:
-    - arsen@gentoo.org
-    - leohdz172@proton.me
-  licenses:
-    - MIT MIT MPL-2.0 Unicode-3.0 || ( Apache-2.0 Boost-1.0 ) || ( Apache-2.0 CC0-1.0 MIT-0 )
-  categories:
-    - app-shells
-- repo: alpine_3_22
-  subrepo: community
-  srcname: zoxide
-  binname: zoxide
-  visiblename: zoxide
-  version: 0.9.7
-  origversion: 0.9.7-r0
   status: outdated
-  summary: Faster way to navigate your filesystem
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: zoxide
-  binname: zoxide-bash-completion
-  visiblename: zoxide-bash-completion
-  version: 0.9.7
-  origversion: 0.9.7-r0
-  status: outdated
-  summary: Bash completions for zoxide
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_22
+  summary: A smarter cd command. Supports all major shells.
+- repo: alpine_3_20
   subrepo: community
   srcname: zoxide
   binname: zoxide-doc
   visiblename: zoxide-doc
-  version: 0.9.7
-  origversion: 0.9.7-r0
-  status: outdated
-  summary: Faster way to navigate your filesystem (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: zoxide
-  binname: zoxide-fish-completion
-  visiblename: zoxide-fish-completion
-  version: 0.9.7
-  origversion: 0.9.7-r0
-  status: outdated
-  summary: Fish completions for zoxide
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: zoxide
-  binname: zoxide-zsh-completion
-  visiblename: zoxide-zsh-completion
-  version: 0.9.7
-  origversion: 0.9.7-r0
-  status: outdated
-  summary: Zsh completions for zoxide
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: zoxide
-  binname: zoxide
-  visiblename: zoxide
-  version: 0.9.8
-  origversion: 0.9.8-r0
-  status: outdated
-  summary: Faster way to navigate your filesystem
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: zoxide
-  binname: zoxide-bash-completion
-  visiblename: zoxide-bash-completion
-  version: 0.9.8
-  origversion: 0.9.8-r0
-  status: outdated
-  summary: Bash completions for zoxide
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: zoxide
-  binname: zoxide-doc
-  visiblename: zoxide-doc
-  version: 0.9.8
-  origversion: 0.9.8-r0
-  status: outdated
-  summary: Faster way to navigate your filesystem (documentation)
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: zoxide
-  binname: zoxide-fish-completion
-  visiblename: zoxide-fish-completion
-  version: 0.9.8
-  origversion: 0.9.8-r0
-  status: outdated
-  summary: Fish completions for zoxide
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: zoxide
-  binname: zoxide-zsh-completion
-  visiblename: zoxide-zsh-completion
-  version: 0.9.8
-  origversion: 0.9.8-r0
-  status: outdated
-  summary: Zsh completions for zoxide
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: liguros_develop
-  srcname: app-shells/zoxide
-  visiblename: app-shells/zoxide
   version: 0.9.4
-  origversion: 0.9.4-r1
-  status: legacy
-  summary: A smarter cd command for your terminal
+  origversion: 0.9.4-r0
+  status: outdated
+  summary: Faster way to navigate your filesystem (documentation)
   maintainers:
-    - arsen@gentoo.org
-    - leohdz172@proton.me
+    - jakub@jirutka.cz
   licenses:
-    - MIT MIT MPL-2.0 Unicode-DFS-2016 || ( Apache-2.0 CC0-1.0 MIT-0 )
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: zoxide
+  binname: zoxide-fish-completion
+  visiblename: zoxide-fish-completion
+  version: 0.9.4
+  origversion: 0.9.4-r0
+  status: outdated
+  summary: Fish completions for zoxide
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: zoxide
+  binname: zoxide-zsh-completion
+  visiblename: zoxide-zsh-completion
+  version: 0.9.4
+  origversion: 0.9.4-r0
+  status: outdated
+  summary: Zsh completions for zoxide
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: zoxide
+  binname: zoxide
+  visiblename: zoxide
+  version: 0.9.4
+  origversion: 0.9.4-r0
+  status: outdated
+  summary: Faster way to navigate your filesystem
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: parabola
+  subrepo: extra
+  srcname: zoxide
+  binname: zoxide
+  visiblename: zoxide
+  version: 0.10.0
+  origversion: 0.10.0-1
+  status: newest
+  summary: A smarter cd command for your terminal
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: zoxide
+  binname: zoxide-bash-completion
+  visiblename: zoxide-bash-completion
+  version: 0.9.4
+  origversion: 0.9.4-r0
+  status: outdated
+  summary: Bash completions for zoxide
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: zoxide
+  binname: zoxide-doc
+  visiblename: zoxide-doc
+  version: 0.9.4
+  origversion: 0.9.4-r0
+  status: outdated
+  summary: Faster way to navigate your filesystem (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: zoxide
+  binname: zoxide-fish-completion
+  visiblename: zoxide-fish-completion
+  version: 0.9.4
+  origversion: 0.9.4-r0
+  status: outdated
+  summary: Fish completions for zoxide
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: zoxide
+  binname: zoxide-zsh-completion
+  visiblename: zoxide-zsh-completion
+  version: 0.9.4
+  origversion: 0.9.4-r0
+  status: outdated
+  summary: Zsh completions for zoxide
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: zoxide
+  binname: zoxide
+  visiblename: zoxide
+  version: 0.9.7
+  origversion: 0.9.7-r0
+  status: outdated
+  summary: Faster way to navigate your filesystem
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: zoxide
+  binname: zoxide-bash-completion
+  visiblename: zoxide-bash-completion
+  version: 0.9.7
+  origversion: 0.9.7-r0
+  status: outdated
+  summary: Bash completions for zoxide
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: wakemeops
+  subrepo: terminal
+  binname: zoxide
+  visiblename: zoxide
+  version: 0.9.8
+  origversion: 0.9.8-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: alpine_3_22
+  subrepo: community
+  srcname: zoxide
+  binname: zoxide-doc
+  visiblename: zoxide-doc
+  version: 0.9.7
+  origversion: 0.9.7-r0
+  status: outdated
+  summary: Faster way to navigate your filesystem (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: zoxide
+  binname: zoxide-fish-completion
+  visiblename: zoxide-fish-completion
+  version: 0.9.7
+  origversion: 0.9.7-r0
+  status: outdated
+  summary: Fish completions for zoxide
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: zoxide
+  binname: zoxide-zsh-completion
+  visiblename: zoxide-zsh-completion
+  version: 0.9.7
+  origversion: 0.9.7-r0
+  status: outdated
+  summary: Zsh completions for zoxide
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: zoxide
+  binname: zoxide
+  visiblename: zoxide
+  version: 0.9.8
+  origversion: 0.9.8-r0
+  status: outdated
+  summary: Faster way to navigate your filesystem
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: pardus_21
+  subrepo: main
+  srcname: rust-zoxide
+  binnames:
+    - zoxide
+  visiblename: rust-zoxide
+  version: 0.4.3
+  origversion: 0.4.3-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - sylvestre@debian.org
   categories:
-    - app-shells
+    - misc
+- repo: alpine_3_23
+  subrepo: community
+  srcname: zoxide
+  binname: zoxide-bash-completion
+  visiblename: zoxide-bash-completion
+  version: 0.9.8
+  origversion: 0.9.8-r0
+  status: outdated
+  summary: Bash completions for zoxide
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: zoxide
+  binname: zoxide-doc
+  visiblename: zoxide-doc
+  version: 0.9.8
+  origversion: 0.9.8-r0
+  status: outdated
+  summary: Faster way to navigate your filesystem (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: zoxide
+  binname: zoxide-fish-completion
+  visiblename: zoxide-fish-completion
+  version: 0.9.8
+  origversion: 0.9.8-r0
+  status: outdated
+  summary: Fish completions for zoxide
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: zoxide
+  binname: zoxide-zsh-completion
+  visiblename: zoxide-zsh-completion
+  version: 0.9.8
+  origversion: 0.9.8-r0
+  status: outdated
+  summary: Zsh completions for zoxide
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
 - repo: alpine_3_24
   subrepo: community
   srcname: zoxide
@@ -658,6 +664,20 @@
     - jakub@jirutka.cz
   licenses:
     - MIT
+- repo: parrot
+  subrepo: parrot/main
+  srcname: rust-zoxide
+  binnames:
+    - zoxide
+  visiblename: rust-zoxide
+  version: 0.9.7
+  origversion: 0.9.7-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - sylvestre@debian.org
+  categories:
+    - misc
 - repo: alpine_edge
   subrepo: community
   srcname: zoxide
@@ -810,6 +830,13 @@
   summary: Fuzzy cd command for interactive shells (bash completions)
   licenses:
     - MIT
+- repo: homebrew
+  srcname: zoxide
+  visiblename: zoxide
+  version: 0.10.0
+  origversion: null
+  status: newest
+  summary: Shell extension to navigate your filesystem faster
 - repo: chimera
   subrepo: user
   srcname: zoxide
@@ -865,56 +892,6 @@
   summary: Fuzzy cd command for interactive shells (zsh completions)
   licenses:
     - MIT
-- repo: chocolatey
-  binname: zoxide
-  visiblename: zoxide
-  version: 0.9.2
-  origversion: null
-  status: outdated
-  summary: A smarter cd command. Supports all major shells.
-- repo: chromebrew
-  srcname: zoxide
-  visiblename: zoxide
-  version: 0.10.0
-  origversion: null
-  status: newest
-  summary: zoxide is a smarter cd command, inspired by z and autojump.
-  licenses:
-    - MIT
-- repo: crux_37
-  subrepo: contrib
-  srcname: zoxide
-  visiblename: zoxide
-  version: 0.9.7
-  origversion: null
-  status: outdated
-  summary: A smarter cd command. Supports all major shells.
-  maintainers:
-    - tbier@posteo.de
-- repo: crux_38
-  subrepo: contrib
-  srcname: zoxide
-  visiblename: zoxide
-  version: 0.10.0
-  origversion: null
-  status: newest
-  summary: A smarter cd command. Supports all major shells.
-  maintainers:
-    - tbier@posteo.de
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: rust-zoxide
-  binnames:
-    - zoxide
-  visiblename: rust-zoxide
-  version: 0.9.7
-  origversion: 0.9.7-1
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - sylvestre@debian.org
-  categories:
-    - misc
 - repo: debian_11
   subrepo: bullseye/main
   srcname: rust-zoxide
@@ -959,6 +936,20 @@
     - misc
 - repo: debian_14
   subrepo: forky/main
+  srcname: rust-zoxide
+  binnames:
+    - zoxide
+  visiblename: rust-zoxide
+  version: 0.10.0
+  origversion: 0.10.0-1
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - sylvestre@debian.org
+  categories:
+    - misc
+- repo: kali_rolling
+  subrepo: main
   srcname: rust-zoxide
   binnames:
     - zoxide
@@ -1077,20 +1068,6 @@
     - fallback-mnt-exherbo@repology
   categories:
     - sys-apps
-- repo: liguros_develop
-  srcname: app-shells/zoxide
-  visiblename: app-shells/zoxide
-  version: 0.9.7
-  origversion: null
-  status: legacy
-  summary: A smarter cd command for your terminal
-  maintainers:
-    - arsen@gentoo.org
-    - leohdz172@proton.me
-  licenses:
-    - MIT MIT MPL-2.0 Unicode-DFS-2016 || ( Apache-2.0 CC0-1.0 MIT-0 )
-  categories:
-    - app-shells
 - repo: fedora_39
   subrepo: release
   srcname: rust-zoxide
@@ -1171,6 +1148,31 @@
     - MIT
   categories:
     - Unspecified
+- repo: liguros_stable
+  srcname: app-shells/zoxide
+  visiblename: app-shells/zoxide
+  version: 0.9.8
+  origversion: null
+  status: outdated
+  summary: A smarter cd command for your terminal
+  maintainers:
+    - arsen@gentoo.org
+    - leohdz172@proton.me
+  licenses:
+    - MIT MIT MPL-2.0 Unicode-3.0 || ( Apache-2.0 Boost-1.0 ) || ( Apache-2.0 CC0-1.0 MIT-0 )
+  categories:
+    - app-shells
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: zoxide
+  binname: zoxide
+  visiblename: zoxide
+  version: 0.10.0
+  origversion: 0.10.0-1
+  status: newest
+  summary: A smarter cd command for your terminal
+  licenses:
+    - MIT
 - repo: fedora_41
   subrepo: updates
   srcname: rust-zoxide
@@ -1187,18 +1189,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: pkgsrc_2026_2
-  srcname: sysutils/zoxide
-  binname: zoxide
-  visiblename: sysutils/zoxide
-  version: 0.9.9
-  origversion: null
-  status: outdated
-  summary: Faster way to navigate your filesystem
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
 - repo: fedora_42
   subrepo: release
   srcname: rust-zoxide
@@ -1291,6 +1281,31 @@
     - andoriyu@gmail.com
   categories:
     - sysutils
+- repo: openmandriva_rolling
+  subrepo: main/release
+  srcname: zoxide
+  binnames:
+    - zoxide
+  visiblename: zoxide
+  version: 0.9.8
+  origversion: 0.9.8-1
+  status: outdated
+  summary: A smarter cd command. Supports all major shells.
+  maintainers:
+    - azure.grade9592@eagereverest.com
+  licenses:
+    - MIT
+  categories:
+    - Terminal/Utility
+- repo: wakemeops
+  subrepo: terminal
+  binname: zoxide
+  visiblename: zoxide
+  version: 0.9.7
+  origversion: 0.9.7-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: gentoo
   srcname: app-shells/zoxide
   visiblename: app-shells/zoxide
@@ -1347,48 +1362,6 @@
     - MIT MIT MPL-2.0 Unicode-DFS-2016 || ( Apache-2.0 CC0-1.0 MIT-0 )
   categories:
     - app-shells
-- repo: openmandriva_cooker
-  subrepo: main/release
-  srcname: zoxide
-  binnames:
-    - zoxide
-  visiblename: zoxide
-  version: 0.9.8
-  origversion: 0.9.8-1
-  status: outdated
-  summary: A smarter cd command. Supports all major shells.
-  maintainers:
-    - azure.grade9592@eagereverest.com
-  licenses:
-    - MIT
-  categories:
-    - Terminal/Utility
-- repo: opensuse_tumbleweed
-  subrepo: src-oss
-  srcname: zoxide
-  binnames:
-    - zoxide
-    - zoxide-debuginfo
-    - zoxide-debugsource
-  visiblename: zoxide
-  version: 0.10.0
-  origversion: 0.10.0-1.3
-  status: newest
-  summary: A smarter cd command
-  licenses:
-    - MIT
-  categories:
-    - System/Console
-- repo: pacstall
-  srcname: zoxide-deb
-  binname: zoxide-deb
-  visiblename: zoxide-deb
-  version: 0.9.9
-  origversion: 0.9.9-1
-  status: outdated
-  summary: A smarter cd command. Supports all major shells.
-  maintainers:
-    - lfromanini@yahoo.com
 - repo: gentoo
   srcname: app-shells/zoxide
   visiblename: app-shells/zoxide
@@ -1425,108 +1398,52 @@
   origversion: null
   status: outdated
   summary: Fast way to navigate your file system
-- repo: homebrew
+- repo: openmandriva_cooker
+  subrepo: main/release
   srcname: zoxide
-  visiblename: zoxide
-  version: 0.10.0
-  origversion: null
-  status: newest
-  summary: Shell extension to navigate your filesystem faster
-- repo: kali_rolling
-  subrepo: main
-  srcname: rust-zoxide
   binnames:
     - zoxide
-  visiblename: rust-zoxide
-  version: 0.10.0
-  origversion: 0.10.0-1
-  status: newest
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - sylvestre@debian.org
-  categories:
-    - misc
-- repo: liguros_stable
-  srcname: app-shells/zoxide
-  visiblename: app-shells/zoxide
-  version: 0.9.8
-  origversion: null
-  status: outdated
-  summary: A smarter cd command for your terminal
-  maintainers:
-    - arsen@gentoo.org
-    - leohdz172@proton.me
-  licenses:
-    - MIT MIT MPL-2.0 Unicode-3.0 || ( Apache-2.0 Boost-1.0 ) || ( Apache-2.0 CC0-1.0 MIT-0 )
-  categories:
-    - app-shells
-- repo: liguros_stable
-  srcname: app-shells/zoxide
-  visiblename: app-shells/zoxide
-  version: 0.9.7
-  origversion: null
-  status: legacy
-  summary: A smarter cd command for your terminal
-  maintainers:
-    - arsen@gentoo.org
-    - leohdz172@proton.me
-  licenses:
-    - MIT MIT MPL-2.0 Unicode-DFS-2016 || ( Apache-2.0 CC0-1.0 MIT-0 )
-  categories:
-    - app-shells
-- repo: liguros_stable
-  srcname: app-shells/zoxide
-  visiblename: app-shells/zoxide
-  version: 0.9.6
-  origversion: 0.9.6-r1
-  status: legacy
-  summary: A smarter cd command for your terminal
-  maintainers:
-    - arsen@gentoo.org
-    - leohdz172@proton.me
-  licenses:
-    - MIT MIT MPL-2.0 Unicode-DFS-2016 || ( Apache-2.0 CC0-1.0 MIT-0 )
-  categories:
-    - app-shells
-- repo: parabola
-  subrepo: extra
-  srcname: zoxide
-  binname: zoxide
   visiblename: zoxide
-  version: 0.10.0
-  origversion: 0.10.0-1
-  status: newest
-  summary: A smarter cd command for your terminal
+  version: 0.9.8
+  origversion: 0.9.8-1
+  status: outdated
+  summary: A smarter cd command. Supports all major shells.
+  maintainers:
+    - azure.grade9592@eagereverest.com
   licenses:
     - MIT
-- repo: pardus_21
-  subrepo: main
-  srcname: rust-zoxide
-  binnames:
-    - zoxide
-  visiblename: rust-zoxide
-  version: 0.4.3
-  origversion: 0.4.3-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - sylvestre@debian.org
   categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: rust-zoxide
+    - Terminal/Utility
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: zoxide
   binnames:
     - zoxide
-  visiblename: rust-zoxide
+    - zoxide-debuginfo
+    - zoxide-debugsource
+  visiblename: zoxide
+  version: 0.10.0
+  origversion: 0.10.0-1.3
+  status: newest
+  summary: A smarter cd command
+  licenses:
+    - MIT
+  categories:
+    - System/Console
+- repo: liguros_stable
+  srcname: app-shells/zoxide
+  visiblename: app-shells/zoxide
   version: 0.9.7
-  origversion: 0.9.7-1
-  status: outdated
+  origversion: null
+  status: legacy
+  summary: A smarter cd command for your terminal
   maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - sylvestre@debian.org
+    - arsen@gentoo.org
+    - leohdz172@proton.me
+  licenses:
+    - MIT MIT MPL-2.0 Unicode-DFS-2016 || ( Apache-2.0 CC0-1.0 MIT-0 )
   categories:
-    - misc
+    - app-shells
 - repo: liguros_stable
   srcname: app-shells/zoxide
   visiblename: app-shells/zoxide
@@ -1553,6 +1470,131 @@
     - leohdz172@proton.me
   licenses:
     - MIT MIT MPL-2.0 Unicode-DFS-2016 || ( Apache-2.0 CC0-1.0 MIT-0 )
+  categories:
+    - app-shells
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: zoxide
+  binname: zoxide
+  visiblename: zoxide
+  version: 0.10.0
+  origversion: 0.10.0-1
+  status: newest
+  summary: A smarter cd command for your terminal
+  licenses:
+    - MIT
+- repo: msys2_clang64
+  srcname: mingw-w64-zoxide
+  binname: mingw-w64-clang-x86_64-zoxide
+  visiblename: mingw-w64-clang-x86_64-zoxide
+  version: 0.10.0
+  origversion: 0.10.0-1
+  status: newest
+  summary: A smarter cd command (mingw-w64)
+  licenses:
+    - spdx:MIT
+- repo: liguros_develop
+  srcname: app-shells/zoxide
+  visiblename: app-shells/zoxide
+  version: 0.9.8
+  origversion: null
+  status: legacy
+  summary: A smarter cd command for your terminal
+  maintainers:
+    - arsen@gentoo.org
+    - leohdz172@proton.me
+  licenses:
+    - MIT MIT MPL-2.0 Unicode-3.0 || ( Apache-2.0 Boost-1.0 ) || ( Apache-2.0 CC0-1.0 MIT-0 )
+  categories:
+    - app-shells
+- repo: liguros_develop
+  srcname: app-shells/zoxide
+  visiblename: app-shells/zoxide
+  version: 0.9.4
+  origversion: 0.9.4-r1
+  status: legacy
+  summary: A smarter cd command for your terminal
+  maintainers:
+    - arsen@gentoo.org
+    - leohdz172@proton.me
+  licenses:
+    - MIT MIT MPL-2.0 Unicode-DFS-2016 || ( Apache-2.0 CC0-1.0 MIT-0 )
+  categories:
+    - app-shells
+- repo: liguros_develop
+  srcname: app-shells/zoxide
+  visiblename: app-shells/zoxide
+  version: 0.9.7
+  origversion: null
+  status: legacy
+  summary: A smarter cd command for your terminal
+  maintainers:
+    - arsen@gentoo.org
+    - leohdz172@proton.me
+  licenses:
+    - MIT MIT MPL-2.0 Unicode-DFS-2016 || ( Apache-2.0 CC0-1.0 MIT-0 )
+  categories:
+    - app-shells
+- repo: pacstall
+  srcname: zoxide-deb
+  binname: zoxide-deb
+  visiblename: zoxide-deb
+  version: 0.9.9
+  origversion: 0.9.9-1
+  status: outdated
+  summary: A smarter cd command. Supports all major shells.
+  maintainers:
+    - lfromanini@yahoo.com
+- repo: pkgsrc_2026_2
+  srcname: sysutils/zoxide
+  binname: zoxide
+  visiblename: sysutils/zoxide
+  version: 0.9.9
+  origversion: null
+  status: outdated
+  summary: Faster way to navigate your filesystem
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
+- repo: pkgsrc_2026_3
+  srcname: sysutils/zoxide
+  binname: zoxide
+  visiblename: sysutils/zoxide
+  version: 0.10.0
+  origversion: null
+  status: newest
+  summary: Faster way to navigate your filesystem
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - sysutils
+- repo: liguros_develop
+  srcname: app-shells/zoxide
+  visiblename: app-shells/zoxide
+  version: 0.9.9
+  origversion: null
+  status: legacy
+  summary: A smarter cd command for your terminal
+  maintainers:
+    - arsen@gentoo.org
+    - leohdz172@proton.me
+  licenses:
+    - MIT MIT MPL-2.0 Unicode-3.0 || ( Apache-2.0 Boost-1.0 ) || ( Apache-2.0 CC0-1.0 MIT-0 )
+  categories:
+    - app-shells
+- repo: liguros_develop
+  srcname: app-shells/zoxide
+  visiblename: app-shells/zoxide
+  version: 0.10.0
+  origversion: null
+  status: newest
+  summary: A smarter cd command for your terminal
+  maintainers:
+    - arsen@gentoo.org
+    - leohdz172@proton.me
+  licenses:
+    - MIT MIT MPL-2.0 Unicode-3.0 ZLIB || ( Apache-2.0 CC0-1.0 MIT-0 )
   categories:
     - app-shells
 - repo: macports
@@ -1602,44 +1644,12 @@
   srcname: zoxide
   binname: zoxide
   visiblename: zoxide
-  version: 0.9.2
-  origversion: 0.9.2-1
-  status: outdated
-  summary: A smarter cd command for your terminal
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: zoxide
-  binname: zoxide
-  visiblename: zoxide
-  version: 0.9.2
-  origversion: 0.9.2-1
-  status: outdated
-  summary: A smarter cd command for your terminal
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: zoxide
-  binname: zoxide
-  visiblename: zoxide
   version: 0.10.0
   origversion: 0.10.0-1
   status: newest
   summary: A smarter cd command for your terminal
   licenses:
     - MIT
-- repo: msys2_clang64
-  srcname: mingw-w64-zoxide
-  binname: mingw-w64-clang-x86_64-zoxide
-  visiblename: mingw-w64-clang-x86_64-zoxide
-  version: 0.10.0
-  origversion: 0.10.0-1
-  status: newest
-  summary: A smarter cd command (mingw-w64)
-  licenses:
-    - spdx:MIT
 - repo: msys2_clangarm64
   srcname: mingw-w64-zoxide
   binname: mingw-w64-clang-aarch64-zoxide
@@ -1756,34 +1766,6 @@
   summary: A smarter cd command. Supports all major shells
   categories:
     - Applications/System Utilities
-- repo: openmandriva_rolling
-  subrepo: main/release
-  srcname: zoxide
-  binnames:
-    - zoxide
-  visiblename: zoxide
-  version: 0.9.8
-  origversion: 0.9.8-1
-  status: outdated
-  summary: A smarter cd command. Supports all major shells.
-  maintainers:
-    - azure.grade9592@eagereverest.com
-  licenses:
-    - MIT
-  categories:
-    - Terminal/Utility
-- repo: pkgsrc_2026_3
-  srcname: sysutils/zoxide
-  binname: zoxide
-  visiblename: sysutils/zoxide
-  version: 0.10.0
-  origversion: null
-  status: newest
-  summary: Faster way to navigate your filesystem
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - sysutils
 - repo: pkgsrc_current
   srcname: sysutils/zoxide
   binname: zoxide
@@ -1844,6 +1826,34 @@
     - sylvestre@debian.org
   categories:
     - utils
+- repo: raspbian_stable
+  subrepo: main
+  srcname: rust-zoxide
+  binnames:
+    - zoxide
+  visiblename: rust-zoxide
+  version: 0.9.7
+  origversion: 0.9.7-1
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - sylvestre@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: rust-zoxide
+  binnames:
+    - zoxide
+  visiblename: rust-zoxide
+  version: 0.10.0
+  origversion: 0.10.0-1
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - sylvestre@debian.org
+  categories:
+    - misc
 - repo: rosa_13
   subrepo: contrib/release
   srcname: zoxide
@@ -1952,16 +1962,6 @@
     - MIT
   categories:
     - extra/base
-- repo: termux
-  srcname: zoxide
-  binname: zoxide
-  visiblename: zoxide
-  version: 0.10.0
-  origversion: null
-  status: newest
-  summary: A faster way to navigate your filesystem
-  maintainers:
-    - termux@github
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: rust-zoxide
@@ -2046,6 +2046,20 @@
     - sylvestre@debian.org
   categories:
     - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: rust-zoxide
+  binnames:
+    - zoxide
+  visiblename: rust-zoxide
+  version: 0.10.0
+  origversion: 0.10.0-1
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - sylvestre@debian.org
+  categories:
+    - universe/misc
 - repo: void_x86_64
   subrepo: x86_64
   srcname: zoxide
@@ -2072,8 +2086,8 @@
   subrepo: terminal
   binname: zoxide
   visiblename: zoxide
-  version: 0.9.9
-  origversion: 0.9.9-1~ops2deb
+  version: 0.9.6
+  origversion: 0.9.6-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -2081,8 +2095,8 @@
   subrepo: terminal
   binname: zoxide
   visiblename: zoxide
-  version: 0.9.8
-  origversion: 0.9.8-1~ops2deb
+  version: 0.9.5
+  origversion: 0.9.5-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
