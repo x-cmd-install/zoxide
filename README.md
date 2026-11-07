@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.10.0` (2026-07-04)
-- **Last commit**: 2026-10-24
+- **Last commit**: 2026-11-07
 - **Assets in release**: 17
 
 ## Popularity
 
-- **Stars**: 40,471 · **Forks**: 943 · **Open issues**: 758 · **Contributors**: 116
+- **Stars**: 40,483 · **Forks**: 943 · **Open issues**: 758 · **Contributors**: 116
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 289 · **Open PRs**: 64 · **Closed issues**: 658 · **Open issues**: 100 · **Commits**: 656
+- **Releases**: 38 · **Merged PRs**: 290 · **Open PRs**: 63 · **Closed issues**: 659 · **Open issues**: 99 · **Commits**: 657
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 13 | 19 | 2 | 3 | 14 |
-| last60d | 2026-09-07 | 0 | 19 | 27 | 4 | 4 | 22 |
-| 90d | 2026-08-08 | 0 | 29 | 34 | 6 | 6 | 32 |
-| last180d | 2026-05-10 | 1 | 36 | 40 | 19 | 8 | 58 |
-| 360d | 2025-11-11 | 2 | 56 | 51 | 42 | 20 | 86 |
-| last720d | 2024-11-16 | 4 | 86 | 60 | 134 | 43 | 141 |
+| 30d | 2026-10-08 | 0 | 13 | 16 | 3 | 2 | 15 |
+| last60d | 2026-09-08 | 0 | 20 | 26 | 5 | 3 | 23 |
+| 90d | 2026-08-09 | 0 | 30 | 33 | 7 | 5 | 33 |
+| last180d | 2026-05-11 | 1 | 36 | 39 | 18 | 7 | 59 |
+| 360d | 2025-11-12 | 2 | 57 | 50 | 43 | 19 | 87 |
+| last720d | 2024-11-17 | 4 | 87 | 59 | 135 | 42 | 142 |
 
 ## Release assets
 
@@ -89,7 +89,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **163** distros on [repology.org](https://repology.org/project/zoxide). **49** are ✅ on the latest upstream release, **91** are ⚠️ on an older version.
+Reported by **164** distros on [repology.org](https://repology.org/project/zoxide). **52** are ✅ on the latest upstream release, **89** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -115,4 +115,4 @@ Install metadata for zoxide lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T06:46:26Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:06:01Z._
