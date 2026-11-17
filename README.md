@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 40,604 · **Forks**: 948 · **Open issues**: 759 · **Contributors**: 117
+- **Stars**: 40,614 · **Forks**: 954 · **Open issues**: 760 · **Contributors**: 117
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 294 · **Open PRs**: 59 · **Closed issues**: 660 · **Open issues**: 99 · **Commits**: 661
+- **Releases**: 38 · **Merged PRs**: 294 · **Open PRs**: 60 · **Closed issues**: 660 · **Open issues**: 100 · **Commits**: 661
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 14 | 11 | 2 | 2 | 17 |
-| last60d | 2026-09-17 | 0 | 23 | 20 | 5 | 4 | 25 |
-| 90d | 2026-08-18 | 0 | 30 | 26 | 6 | 6 | 31 |
-| last180d | 2026-05-20 | 1 | 39 | 35 | 17 | 7 | 60 |
-| 360d | 2025-11-21 | 2 | 56 | 44 | 40 | 18 | 86 |
-| last720d | 2024-11-26 | 4 | 91 | 55 | 134 | 41 | 146 |
+| 30d | 2026-10-18 | 0 | 12 | 11 | 2 | 3 | 17 |
+| last60d | 2026-09-18 | 0 | 23 | 21 | 5 | 5 | 25 |
+| 90d | 2026-08-19 | 0 | 30 | 27 | 6 | 7 | 31 |
+| last180d | 2026-05-21 | 1 | 38 | 36 | 17 | 8 | 60 |
+| 360d | 2025-11-22 | 2 | 56 | 45 | 40 | 19 | 86 |
+| last720d | 2024-11-27 | 4 | 91 | 56 | 133 | 42 | 146 |
 
 ## Release assets
 
@@ -89,7 +89,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **164** distros on [repology.org](https://repology.org/project/zoxide). **53** are ✅ on the latest upstream release, **88** are ⚠️ on an older version.
+Reported by **165** distros on [repology.org](https://repology.org/project/zoxide). **53** are ✅ on the latest upstream release, **89** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -115,4 +115,4 @@ Install metadata for zoxide lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T06:35:21Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T08:02:12Z._
