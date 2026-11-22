@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.10.0` (2026-07-04)
-- **Last commit**: 2026-11-18
+- **Last commit**: 2026-11-21
 - **Assets in release**: 17
 
 ## Popularity
 
-- **Stars**: 40,686 · **Forks**: 970 · **Open issues**: 761 · **Contributors**: 117
+- **Stars**: 40,693 · **Forks**: 980 · **Open issues**: 761 · **Contributors**: 118
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 295 · **Open PRs**: 64 · **Closed issues**: 660 · **Open issues**: 101 · **Commits**: 662
+- **Releases**: 38 · **Merged PRs**: 296 · **Open PRs**: 64 · **Closed issues**: 660 · **Open issues**: 101 · **Commits**: 663
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 0 | 7 | 11 | 2 | 4 | 18 |
-| last60d | 2026-09-22 | 0 | 23 | 24 | 5 | 6 | 26 |
-| 90d | 2026-08-23 | 0 | 30 | 31 | 6 | 8 | 32 |
-| last180d | 2026-05-25 | 1 | 39 | 40 | 17 | 9 | 61 |
-| 360d | 2025-11-26 | 2 | 56 | 48 | 40 | 20 | 87 |
-| last720d | 2024-12-01 | 4 | 92 | 60 | 132 | 42 | 147 |
+| 30d | 2026-10-23 | 0 | 7 | 11 | 1 | 4 | 7 |
+| last60d | 2026-09-23 | 0 | 24 | 24 | 5 | 6 | 25 |
+| 90d | 2026-08-24 | 0 | 30 | 31 | 6 | 8 | 31 |
+| last180d | 2026-05-26 | 1 | 40 | 40 | 17 | 9 | 62 |
+| 360d | 2025-11-27 | 2 | 57 | 48 | 40 | 20 | 86 |
+| last720d | 2024-12-02 | 4 | 93 | 60 | 131 | 41 | 148 |
 
 ## Release assets
 
@@ -115,4 +115,4 @@ Install metadata for zoxide lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T07:01:39Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T06:45:06Z._
