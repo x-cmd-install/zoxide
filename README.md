@@ -14,7 +14,7 @@ x install zoxide
 
 ## Code insight
 
-Total: **3,979** lines of code across **29** files in the top 5 languages.
+Total: **3,978** lines of code across **29** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -31,8 +31,8 @@ Overall score: **4.4 / 10**
 Lowest-scoring checks:
 
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Security-Policy** (0/10) — security policy file not detected
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.10.0` (2026-07-04)
-- **Last commit**: 2026-11-21
+- **Last commit**: 2026-11-24
 - **Assets in release**: 17
 
 ## Popularity
 
-- **Stars**: 40,706 · **Forks**: 995 · **Open issues**: 761 · **Contributors**: 118
+- **Stars**: 40,718 · **Forks**: 997 · **Open issues**: 762 · **Contributors**: 120
 
 ## Totals (cumulative)
 
-- **Releases**: 38 · **Merged PRs**: 296 · **Open PRs**: 65 · **Closed issues**: 660 · **Open issues**: 101 · **Commits**: 663
+- **Releases**: 38 · **Merged PRs**: 299 · **Open PRs**: 60 · **Closed issues**: 661 · **Open issues**: 101 · **Commits**: 666
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 6 | 12 | 1 | 4 | 7 |
-| last60d | 2026-09-24 | 0 | 24 | 25 | 5 | 6 | 25 |
-| 90d | 2026-08-25 | 0 | 30 | 32 | 6 | 8 | 31 |
-| last180d | 2026-05-27 | 1 | 40 | 41 | 17 | 9 | 62 |
-| 360d | 2025-11-28 | 2 | 57 | 49 | 40 | 20 | 86 |
-| last720d | 2024-12-03 | 4 | 93 | 61 | 130 | 41 | 148 |
+| 30d | 2026-10-25 | 0 | 9 | 7 | 1 | 3 | 10 |
+| last60d | 2026-09-25 | 0 | 27 | 20 | 6 | 6 | 28 |
+| 90d | 2026-08-26 | 0 | 33 | 27 | 7 | 8 | 34 |
+| last180d | 2026-05-28 | 1 | 43 | 36 | 18 | 9 | 65 |
+| 360d | 2025-11-29 | 2 | 60 | 44 | 40 | 20 | 89 |
+| last720d | 2024-12-04 | 4 | 96 | 56 | 131 | 41 | 151 |
 
 ## Release assets
 
@@ -115,4 +115,4 @@ Install metadata for zoxide lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T07:31:24Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T09:52:03Z._
